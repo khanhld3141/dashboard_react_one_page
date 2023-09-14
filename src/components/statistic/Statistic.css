@@ -1,0 +1,59 @@
+.statistic{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem
+}
+.color1,
+.color2,
+.color3{
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+.color1{
+    background-color: #eef4ff;
+}
+.color2{
+    background-color: #fdf4f5;
+}
+.color3{
+    background-color: #fffce4;
+}
+.statistic .sta-header{
+    display: flex;
+}  
+.sta-header .logo{
+    padding: 15px 18px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #fff;
+} 
+.sta-header .logo svg{
+    font-size: 24px;
+}
+.sta-header .content{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.statistic .sta-footer{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    color: grey;
+    font-weight: 500;
+}
+.sta-footer .sales{
+    font-size: 14px;
+}
+.sta-footer .green{
+    color: green;
+}
+.sta-footer .red{
+    color: red;
+}
+.sta-footer .icon{
+    font-size: 20px;
+}
